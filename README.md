@@ -6,14 +6,14 @@
 
 ### ansible-adhoc
 
-> выполнение задач без playbook
+> выполнение задач без `playbook`
 
 * [ansible-adhoc](ansible-adhoc)
     * [ping](ansible-adhoc/ping)
 
 ### ansible-playbook
 
-> примеры использования playbook
+> примеры использования `playbook`
 
 ...
 
