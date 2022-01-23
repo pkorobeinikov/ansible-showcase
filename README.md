@@ -30,3 +30,12 @@ python -m pipenv \
 ```shell
 python -m pipx install ansible
 ```
+
+## Установка `vagrant` на `macOS`
+
+В данном случае установка через `homebrew` — наиболее простой и практичный
+способ.
+
+```shell
+brew install --cask vagrant
+```
