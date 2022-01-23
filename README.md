@@ -31,6 +31,14 @@ python -m pipenv \
 python -m pipx install ansible
 ```
 
+## Установка `sshpass` на `macOS`
+
+Для использования ssh-пароля вместо ключа, потребуется утилита `sshpass`.
+
+```shell
+brew install esolitos/ipa/sshpass
+```
+
 ## Установка `vagrant` на `macOS`
 
 В данном случае установка через `homebrew` — наиболее простой и практичный
