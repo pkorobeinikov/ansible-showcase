@@ -2,6 +2,20 @@
 
 > A quick start guide on Ansible for my colleagues and mentees.
 
+## Список примеров
+
+### adhoc
+
+> выполнение задач без playbook
+
+* [ping](ansible-adhoc/ping)
+
+### playbook
+
+> примеры использования playbook
+
+...
+
 ## Установка `ansible` на `macOS`
 
 ### Просто, быстро и в систему

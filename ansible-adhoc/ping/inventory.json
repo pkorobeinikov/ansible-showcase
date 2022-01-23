@@ -1,0 +1,20 @@
+{
+    "all": {
+        "vars": {
+            "ansible_ssh_user": "vagrant",
+            "ansible_ssh_password": "vagrant"
+        },
+        "children": {
+            "ubuntu": {
+                "hosts": {
+                    "192.168.56.10": null
+                }
+            },
+            "centos": {
+                "hosts": {
+                    "192.168.56.11": null
+                }
+            }
+        }
+    }
+}
