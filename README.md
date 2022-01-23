@@ -39,3 +39,14 @@ python -m pipx install ansible
 ```shell
 brew install --cask vagrant
 ```
+
+## Установка `virtualbox` на `macOS`
+
+Аналогично, удобнее всего производить установку через `homebrew`.
+
+```shell
+brew install --cask virtualbox
+```
+
+После завершения установки не забудьте разрешить использование расширений ядра
+во вкладке [Security & Privacy](x-apple.systempreferences:com.apple.preference.security) и перезагрузить компьютер.
