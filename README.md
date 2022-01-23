@@ -50,3 +50,53 @@ brew install --cask virtualbox
 
 После завершения установки не забудьте разрешить использование расширений ядра
 во вкладке [Security & Privacy](x-apple.systempreferences:com.apple.preference.security) и перезагрузить компьютер.
+
+## Работа с `vagrant`
+
+### Запуск виртуальной машины
+
+Запустить все объявленные машины:
+
+```shell
+vagrant up
+```
+
+Запустить указанную виртуальную машину:
+
+```shell
+vagrant up machine-name
+```
+
+### Остановка и удаление виртуальной машины
+
+Остановить все объявленные машины:
+
+```shell
+vagrant destroy -f
+```
+
+Остановить указанную виртуальную машину:
+
+```shell
+vagrant destroy -f machine-name
+```
+
+### Вход по `ssh` на виртуальную машину
+
+Под пользователем `vagrant`:
+
+```shell
+vagrant ssh machine-name
+```
+
+### Просмотр статуса виртуальных машин
+
+```shell
+vagrant status
+vagrant global-status
+```
+
+### Ссылки
+
+- Quick Start:
+  [https://learn.hashicorp.com/tutorials/vagrant/getting-started-index](https://learn.hashicorp.com/tutorials/vagrant/getting-started-index)
