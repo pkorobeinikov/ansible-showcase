@@ -4,13 +4,14 @@
 
 ## Список примеров
 
-### adhoc
+### ansible-adhoc
 
 > выполнение задач без playbook
 
-* [ping](ansible-adhoc/ping)
+* [ansible-adhoc](ansible-adhoc)
+    * [ping](ansible-adhoc/ping)
 
-### playbook
+### ansible-playbook
 
 > примеры использования playbook
 
